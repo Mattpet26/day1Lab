@@ -4,8 +4,11 @@
 
 div {
   border: black solid 1px;
+  text-align: center;
 }
 
 article {
   border: black solid 1px;
+  text-align: center;
 }
+
