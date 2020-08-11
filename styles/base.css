@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  border: black solid 1px;
+}
+
+article {
+  border: black solid 1px;
+}

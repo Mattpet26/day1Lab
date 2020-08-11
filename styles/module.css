@@ -1,0 +1,49 @@
+body > main > article {
+  background-color: blue;
+}
+
+body > main > div:nth-of-type(1){
+  background-color: orange;
+}
+
+body > main > #twosquares > div{
+  background-color: aqua;
+}
+
+body > main > #doubletop > div {
+  background-color: yellow;
+}
+
+body > main > #doublebottom > div {
+  background-color: green;
+}
+
+body > main > div:last-of-type {
+  background-color: red;
+}
+
+@media only screen and (min-width: 1080px){
+  body > main > article {
+    background-color: red;
+  }
+  
+  body > main > div:nth-of-type(1){
+    background-color: aqua;
+  }
+  
+  body > main > #twosquares > div{
+    background-color: green;
+  }
+  
+  body > main > #doubletop > div {
+    background-color: orange;
+  }
+  
+  body > main > #doublebottom > div {
+    background-color: blue;
+  }
+  
+  body > main > div:last-of-type {
+    background-color: yellow;
+  }
+}
