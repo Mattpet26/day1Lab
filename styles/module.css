@@ -22,7 +22,7 @@ body > main > div:last-of-type {
   background-color: red;
 }
 
-@media only screen and (min-width: 1080px){
+@media only screen and (min-width: 960px){
   body > main > article {
     background-color: red;
   }
