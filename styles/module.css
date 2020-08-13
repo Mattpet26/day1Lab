@@ -6,20 +6,32 @@ body > main > div:nth-of-type(1){
   background-color: orange;
 }
 
-body > main > #twosquares > div{
+body > main > div:nth-of-type(2){
   background-color: aqua;
 }
 
-body > main > #doubletop > div {
+body > main > div:nth-of-type(3){
   background-color: yellow;
 }
 
-body > main > #doublebottom > div {
+body > main > section > div:nth-of-type(1){
   background-color: green;
 }
 
-body > main > div:last-of-type {
+body > main > section > div:nth-of-type(2){
   background-color: red;
+}
+
+body > main > section > div:nth-of-type(3){
+  background-color: salmon;
+}
+
+body > main > section > div:nth-of-type(4){
+  background-color: violet;
+}
+
+body > main > div:nth-of-type(4){
+  background-color: slategray;
 }
 
 @media only screen and (min-width: 960px){

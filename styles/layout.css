@@ -1,58 +1,41 @@
 body > main > article {
-  width: 480px;
   height: 75px;
   line-height: 75px;
 }
 
 body > main > div:nth-of-type(1){
-  width: 480px;
   height: 150px;
   line-height: 150px;
 }
 
-body > main > #twosquares > div{
-  width: 480px;
+body > main > section > #c, #d {
   height: 125px;
-  line-height: 125px;
+  line-height: 150px;
 }
 
-body > main > #doubletop > div {
-  width: 240px;
+#container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body > main > section > #e, #f, #g, #h{
   height: 250px;
+  width: 50%;
   line-height: 250px;
-}
-
-body > main > #doublebottom > div {
-  width: 240px;
-  height: 250px;
-  line-height: 250px;
-}
-
-body > main > #doubletop > div:nth-child(1) {
-  float: left;
-}
-
-body > main > #doubletop > div:nth-child(2) {
-  display: inline-block;
-}
-
-body > main > #doublebottom > div:nth-child(1) {
-  float: left;
-}
-
-body > main > #doublebottom > div:nth-child(2) {
-  display: inline-block;
+  flex-grow: 1;
 }
 
 body > main > div:last-of-type {
-  width: 480px;
   height: 80px;
   line-height: 80px;
 }
 
 @media only screen and (min-width: 960px){
-  body > main > article {
+  body {
     width: 960px;
+  }
+
+  body > main > article {
     height: 100px;
     line-height: 100px;
   }
@@ -61,36 +44,35 @@ body > main > div:last-of-type {
     width: 200px;
     height: 600px;
     line-height: 600px;
-    display: inline-block;
-    float: left;
-  }
-  
-  body > main > #twosquares > div{
-    width: 380px;
-    height: 200px;
-    line-height: 200px;
-    display: inline-block;
-    margin-left: -2px;
-    /* how can i remove the spacing caused from inline-block */
-  }
-  
-  body > main > #doubletop > div {
-    width: 190px;
-    height: 250px;
-    display: inline-block;
     float: left;
   }
 
-  body > main > #doublebottom > div {
-    width: 190px;
+  #deskcontainer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  body > main > section > #c, #d{
+    height: 200px;
+    width: 380px;
+    line-height: 200px;
+    flex-grow: 1;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  body > main > section > #e, #f, #g, #h{
     height: 250px;
-    display: inline-block
+    width: 25%;
+    line-height: 250px;
   }
 
   body > main > div:last-of-type {
-    width: 760px;
     height: 150px;
+    width: 100%;
     line-height: 150px;
-    display: inline-block
   }
 }
